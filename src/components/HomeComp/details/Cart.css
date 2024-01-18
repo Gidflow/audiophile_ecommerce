@@ -1,0 +1,179 @@
+
+.carter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--black);
+    opacity: 0.4;
+    min-height: 100vh;
+    z-index: 0;
+    
+}
+
+.cartContent img{
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background: #F1F1F1;
+   
+    
+}
+
+.cartContent{
+    width: 377px;
+    border-radius: 8px;
+    background: #FFF;
+    flex-shrink: 0;
+    z-index: 1;
+    position:absolute;
+    right: 9.5rem;
+    top: 1rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    
+}
+
+.cart-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-text h2{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.286px;
+    text-transform: uppercase;
+}
+
+
+.cartProducts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.shopping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-text{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cartText2{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.cartText2 h2{
+    color: #000;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+.cartText2 p{
+    color: #000;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 178.571% */
+opacity: 0.5;
+
+}
+
+.shopping .btnGroup2{
+    width: 96px;
+    height: 32px;
+    background: #F1F1F1;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.btnGroup2 button{
+    border: none;
+    opacity: 0.25;
+    
+}
+
+.btnGroup2 button:nth-child(2){
+ opacity: unset;
+}
+input{
+    width: 33%;
+    outline: unset;
+    border:none;
+    text-align: center;
+    background-color: inherit;
+}
+
+.removeAll{
+    border:none;
+    background-color: inherit;
+    opacity: 0.5;
+    color: #000;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.totalItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalItem .subTotal{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.totalItem p{
+    opacity: 0.5;
+    color: #000;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.checkoutBtn a{
+    display: block;
+    background-color: var(--orangey);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .7rem;
+}
