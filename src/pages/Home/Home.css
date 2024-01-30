@@ -14,12 +14,12 @@
    display: flex;
    width: 80%;
     align-self: center;
-    margin: 10rem 0;
+    margin: 3rem 0;
 }
 
 
 .heroDescription{
-    width: 40%;
+    width: 45%;
     
 }
 .heroDescription .p1{
