@@ -106,7 +106,7 @@ const Details = () => {
                  </div>
             </div>
           </div>
-          <div className="text-description">
+          <div className="text-descriptionM">
              <div className="features">
               <h1>FEATURES</h1>
               <p>{data.features}</p>

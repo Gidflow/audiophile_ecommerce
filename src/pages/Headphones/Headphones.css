@@ -67,7 +67,7 @@ background-color: var(--lightGray);
     width: 100%
 }
 .hpContent{
-    width: 445px;
+    width: 400px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -87,7 +87,7 @@ background-color: var(--lightGray);
 }
 
 .hpContent p{
-    width: 445px;
+    width: inherit;
     opacity: 0.5;
     color: #000;
     font-family: Manrope;
@@ -123,7 +123,7 @@ background-color: var(--lightGray);
 .headphoneItem img{
     width: 50%;
     border-radius: 8px;
-    height: 560px;
+    height: 520px;
 }
 
 .headphoneContent{
